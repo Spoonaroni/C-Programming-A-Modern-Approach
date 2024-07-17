@@ -1,4 +1,4 @@
-# Section 3.1
+# Exercise 01
 
 What output do the following calls of printf produce?
 
