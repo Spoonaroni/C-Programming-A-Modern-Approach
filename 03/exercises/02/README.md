@@ -11,5 +11,5 @@ Write calls of `printf` that display a `float` variable `x` in the following for
 
 (a) `printf("%-8.1e", x);`  
 (b) `printf("%10.6e", x);`  
-(c) `printf("%-8.3f". x);`  
+(c) `printf("%-8.3f", x);`  
 (d) `printf("%6.0f", x);`  
