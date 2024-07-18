@@ -1,4 +1,4 @@
-## Exercise 4
+## Exercise 04
 
 Suppose that we call `scanf` as follows: 
 
