@@ -1,4 +1,4 @@
-## Exercise 01
+## Exercise 3.01
 
 What output do the following calls of `printf` produce?
 
