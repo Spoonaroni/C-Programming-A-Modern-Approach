@@ -1,4 +1,4 @@
-## Exercise 03
+## Exercise 3.03
  
 For each of the following pairs of `scanf` format strings, indicate whether or not the two strings are equivalent. If they're not. show how they can be distinguished.
 

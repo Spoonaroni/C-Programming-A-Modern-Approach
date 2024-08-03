@@ -1,4 +1,4 @@
-## Exercise 02
+## Exercise 3.02
 
 Write calls of `printf` that display a `float` variable `x` in the following formats.  
 
