@@ -2,14 +2,16 @@
 
 int main(void)
 {
-    int n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, total;
+    int d, i1, i2, i3, i4, i5, j1, j2, j3, j4, j5, first_sum, second_sum, total;
 
-    printf("Enter the first 11 digits of a UPC: ");
-    scanf("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d", &n1, &n2, &n3, &n4, &n5, &n6, &n7, &n8, &n9, &n10, &n11);
+    printf("Enter the first 11 digits of a UPC: "); 
+    scanf("%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d%1d", &d, &i1, &i2, &i3, &i4, &i5, &j1, &j2, &j3, &j4, &j5);
     
-    total = ((n1 + n3 + n5 + n7 + n9 + n11) * 3) + (n2 + n4 + n6 + n8 + n10);
+    first_sum = d + i2 + i4 + j1 + j3 + j5; 
+    second_sum = i1 + i3 + i5 + j2 + j4; 
+    total = 3 * first_sum + second_sum;
 
-    printf("Check digit: %d\n", 9 - ((total - 1) % 10));
-
+    printf("Check digit: %d\n", 9 - ((total - 1) % 10)); 
+    
     return 0;
 }
