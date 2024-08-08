@@ -12,3 +12,5 @@ The output should be displayed using five digits, even if fewer digits are suffi
 ## Solution
 
 See `4.c`
+
+(The book does a horrible job of explaining this problem)
