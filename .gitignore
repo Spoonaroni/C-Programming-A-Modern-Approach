@@ -1,1 +1,5 @@
+# Keeps VSCode from being annoying
 .vscode
+
+# Keeps binaries from being accidentally committed
+*.out
