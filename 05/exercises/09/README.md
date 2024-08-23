@@ -2,7 +2,7 @@
 
 Are the following `if` statements equivalent? If not, why not?
 
-```
+```C
 if (score >= 90)       if (score < 60)
     printf("A");           printf("F");
 else if (score >= 80)  else if (score < 70)
