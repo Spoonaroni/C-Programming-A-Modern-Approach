@@ -19,9 +19,13 @@ int main(void)
     {
         printf("The number %d has 3 digits\n", input);
     }
+    else if (input >= 1000 && input <= 9999)
+    {
+        printf("The number %d has 4 digits\n", input);
+    }
     else
     {
-        printf("The number has more than 3 digits\n");
+        printf("The number has more than 4 digits\n");
     }
     
     return 0;
