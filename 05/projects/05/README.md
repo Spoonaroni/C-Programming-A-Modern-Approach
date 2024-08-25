@@ -1,4 +1,4 @@
-## Exercise 5.06
+## Exercise 5.05
 
 In one state, signle residents are subject to the following income tax:
 
