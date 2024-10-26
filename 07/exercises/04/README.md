@@ -11,7 +11,7 @@ if `c` is a variable type `char`, which one of the following statements is illeg
 
 ## Solution
 
-(a) Legal
-(b) Legal
-(c) Legal
-(d) Not Legal. `printf` does not work that way; it would need to be `printf("%c", c);`
+(a) Legal  
+(b) Legal  
+(c) Legal  
+(d) Not Legal. `printf` does not work that way; it would need to be `printf("%c", c);`  

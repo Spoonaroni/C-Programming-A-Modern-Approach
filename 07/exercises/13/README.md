@@ -18,5 +18,5 @@ Give the value and the type of each expression listed below.
 
 ## Solution
 
-(a) `-3`, `int` (c) `6.5`, `float`   (e) `-1.0`, `double`
-(b) `7`, `long` (d) `3.75`, `double` (f) `6`, `int`
+(a) `-3`, `int` (c) `6.5`, `float`   (e) `-1.0`, `double`  
+(b) `7`, `long` (d) `3.75`, `double` (f) `6`, `int`  

@@ -11,7 +11,7 @@ Which of the following are not legal types in C?
 
 ## Solution
 
-(a) Legal
-(b) Not Legal
-(c) Legal
-(d) Legal
+(a) Legal  
+(b) Not Legal  
+(c) Legal  
+(d) Legal  

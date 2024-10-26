@@ -12,8 +12,8 @@ Which of the following are not legal constants in C? Classify each legal constan
 
 ## Solution
 
-(a) Legal Integer Constant
-(b) Legal Floating-point Constant 
-(c) Not Legal
-(d) Not Legal
-(e) Legal Floating-point Constant
+(a) Legal Integer Constant  
+(b) Legal Floating-point Constant  
+(c) Not Legal  
+(d) Not Legal  
+(e) Legal Floating-point Constant  
