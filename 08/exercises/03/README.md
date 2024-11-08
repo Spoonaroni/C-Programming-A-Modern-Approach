@@ -5,5 +5,5 @@ Write a declaration of an array named `weekend` containing seven `bool` values. 
 ## Solution
 
 ```c
-bool weekend[7] = {[0] = true, [6] = true}
+int weekend[7] = {1, 0, 0, 0, 0, 0, 1};
 ```
