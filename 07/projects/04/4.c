@@ -51,6 +51,9 @@ int main(void)
 			case 'Y':
 				putchar('9');
 				break;
+			default:
+				putchar(alphaNum);
+				break;
 		}
 		
 		alphaNum = getchar();
