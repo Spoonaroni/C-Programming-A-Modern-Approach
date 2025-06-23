@@ -73,7 +73,7 @@ void insert(void)
 
 	if (num_parts == max_parts) {
 		max_parts *= 2;
-		inventory_temp = realloc(inventory, max_parts);
+		inventory_temp = realloc(inventory, max_parts * sizeof(struct part));
 		if (inventory_temp == NULL) {
 			printf("Error: Realloc failed\n");
 			return;
