@@ -3,3 +3,4 @@
 
 # Keeps binaries from being accidentally committed
 *.out
+*.o
