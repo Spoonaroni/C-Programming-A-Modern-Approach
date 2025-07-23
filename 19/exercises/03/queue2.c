@@ -41,6 +41,7 @@ void queue_insert(Queue q, Item i)
 	else {
 		q->last->next = new_node;
 		q->last = q->last->next;
+		q->last->next = NULL;
 	}
 }
 
