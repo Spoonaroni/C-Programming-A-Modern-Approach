@@ -1,3 +1,4 @@
+#include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 
 	while ((ch = getc(fp)) != EOF) {
-		if (ch != ' ') {
+		if (isspace(ch)) {
 			if (!in_word) {
 				word_count++;
 				in_word = true;
