@@ -155,9 +155,7 @@ int dump(void)
 		return -1;
 	}
 
-	for (int i = 0; i < num_parts; i++) {
-		fwrite(&inventory[i], sizeof(struct part), 1, fp);
-	}
+	fwrite(inventory, sizeof(struct part), num_parts, fp);
 
 	fclose(fp);
 	return 0;
@@ -167,7 +165,6 @@ int restore(void)
 {
 	FILE *fp;
 	char filename[NAME_LEN];
-	num_parts = 0;
 
 	printf("Enter name of input file: ");
 	read_line(filename, NAME_LEN);
@@ -177,9 +174,7 @@ int restore(void)
 		return -1;
 	}
 
-	while (fread(&inventory[num_parts], sizeof(struct part), 1, fp) > 0) {
-		num_parts++;
-	}
+	num_parts = fread(inventory, sizeof(struct part), MAX_PARTS, fp) > 0;
 
 	fclose(fp);
 	return 0;
