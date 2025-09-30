@@ -174,7 +174,7 @@ int restore(void)
 		return -1;
 	}
 
-	num_parts = fread(inventory, sizeof(struct part), MAX_PARTS, fp) > 0;
+	num_parts = fread(inventory, sizeof(struct part), MAX_PARTS, fp);
 
 	fclose(fp);
 	return 0;
